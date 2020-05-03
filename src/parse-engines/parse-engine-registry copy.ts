@@ -6,6 +6,7 @@ import LatteParseEngine from "./types/latte-parse-engine";
 import PhpParseEngine from "./types/php-parse-engine";
 import ScssParseEngine from "./types/scss-parse-engine";
 import SlimParseEngine from "./types/slim-parse-engine";
+import HamlParseEngine from "./types/haml-parse-engine";
 import EexParseEngine from "./types/eex-parse-engine";
 import SvelteParseEngine from "./types/svelte-parse-engine";
 import SmartyParseEngine from "./types/smarty-parse-engine";
@@ -43,6 +44,7 @@ class ParseEngineRegistry {
         new ScssParseEngine(),
         new HtmlParseEngine(),
         new SlimParseEngine(),
+        new HamlParseEngine(),
         new PhpParseEngine(),
     ];
 }
